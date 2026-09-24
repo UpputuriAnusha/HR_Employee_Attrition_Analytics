@@ -1,0 +1,371 @@
+# HR Employee Attrition Dashboard
+
+## End-to-End HR Analytics Project
+
+**Python / Pandas • Excel**
+
+An end-to-end HR analytics project focused on **employee attrition, retention, workforce segmentation and HR risk monitoring**.
+
+The project uses employee-level HR data, prepares and analyzes the data with Python/Pandas, and uses Excel for calculations, visualization and dashboard reporting.
+
+---
+
+## 📌 Project Overview
+
+Employee attrition is an important HR and business-performance metric. Organizations need to understand **where employees are leaving, which workforce segments have higher attrition, and which areas require closer retention analysis**.
+
+This project provides a management-oriented view of:
+
+- Employee headcount
+- Employees who left
+- Employees who stayed
+- Attrition rate
+- Average monthly income
+- Average employee age
+- Average tenure
+- Attrition by job role
+- Attrition by department
+- Attrition by age group
+- Attrition by tenure group
+- Attrition by gender
+- Attrition by overtime
+
+---
+
+## 🎯 Business Problem
+
+HR teams need a consolidated dashboard to monitor workforce stability and identify employee segments that require closer retention analysis.
+
+### Key business questions
+
+1. How many employees are represented in the workforce dataset?
+2. How many employees left and how many stayed?
+3. What is the overall employee attrition rate?
+4. Which job roles show higher attrition?
+5. Which departments have the highest number of employees who left?
+6. Which age groups have the highest employee concentration and exits?
+7. How does attrition vary by tenure?
+8. How is the workforce distributed by gender?
+9. Is overtime associated with different attrition levels?
+10. Which workforce segments should HR monitor more closely?
+
+---
+
+## 🎯 Project Objectives
+
+- Clean and validate the employee dataset.
+- Perform exploratory HR analytics using Python/Pandas.
+- Use Excel for data preparation, validation, calculations and reporting.
+- Calculate workforce KPIs.
+- Segment attrition by job role, department, age group, tenure group, gender and overtime.
+- Build a structured Excel-based HR Attrition Dashboard.
+- Generate management-oriented HR insights.
+- Document the project for portfolio and GitHub presentation.
+
+---
+
+## 📊 Dataset Overview
+
+The dashboard represents **1,470 employees**.
+
+| Area | Representative Fields | Business Purpose |
+|---|---|---|
+| Employee Status | Attrition / Employee Status | Measure employees who left and stayed |
+| Employee Profile | Age, Gender | Understand workforce demographics |
+| Employment | Department, Job Role, Tenure | Analyze workforce concentration and retention |
+| Work Pattern | Overtime | Compare attrition across overtime groups |
+| Compensation | Monthly Income | Monitor compensation-related workforce indicators |
+| Derived Segments | Age Group, Tenure Group | Enable segment-level attrition analysis |
+
+> Note: The documentation intentionally uses the fields and results visible in the dashboard rather than claiming unsupported row-level data-quality statistics.
+
+---
+
+## 🧹 Data Preparation
+
+### Python / Pandas
+
+Python was used for:
+
+- Dataset inspection
+- Data-type validation
+- Missing-value checks
+- Duplicate checks
+- Categorical-value validation
+- Data cleaning and standardization
+- Employee segmentation
+- Exploratory data analysis
+- Attrition analysis
+
+### Excel
+
+Excel was used for:
+
+- Data validation
+- Supporting calculations
+- Grouping and segmentation
+- Cross-checking employee counts
+- KPI calculations
+- Charts and dashboard reporting
+- Management-focused presentation
+
+---
+
+## 🛠️ Technology Stack
+
+| Tool | Purpose |
+|---|---|
+| Python | Data cleaning, transformation and EDA |
+| Pandas | Data manipulation and analysis |
+| Excel | Data validation, calculations, charts and dashboard |
+| GitHub | Portfolio documentation and project versioning |
+
+---
+
+## 🔄 Project Workflow
+
+```text
+Raw HR Employee Data
+        ↓
+Python / Pandas
+        ↓
+Data Cleaning & Validation
+        ↓
+Exploratory HR Analysis
+        ↓
+Excel Calculations & Segmentation
+        ↓
+Excel Dashboard
+        ↓
+Business Insights & Management Recommendations
+```
+
+---
+
+## 📈 Key KPIs
+
+| KPI | Result |
+|---|---:|
+| Total Employees | 1,470 |
+| Employees Left | 237 |
+| Employees Stayed | 1,233 |
+| Attrition Rate | 16.1% |
+| Avg. Monthly Income | $6,508 |
+| Avg. Age | 37.5 |
+| Avg. Tenure | 7.2 years |
+| Male Employees | 926 (63%) |
+| Female Employees | 544 (37%) |
+
+---
+
+## 📊 Dashboard Analysis
+
+### 1. Attrition Rate by Job Role
+
+The dashboard compares employees who stayed and left across job roles and displays the corresponding attrition rate.
+
+| Job Role | Stayed | Left | Attrition Rate |
+|---|---:|---:|---:|
+| Sales Representative | 230 | 80 | 26.9% |
+| Sales Executive | 189 | 57 | 23.1% |
+| Research Scientist | 167 | 47 | 21.0% |
+| Research Director | 135 | 43 | 24.2% |
+| Manufacturing Director | 97 | 30 | 23.6% |
+| Manager | 87 | 25 | 22.3% |
+| Laboratory Technician | 67 | 20 | 23.0% |
+| Human Resources | 49 | 14 | 22.2% |
+| Healthcare Representative | 122 | 31 | 20.3% |
+
+---
+
+### 2. Attrition by Overtime
+
+| Overtime | Stayed | Left |
+|---|---:|---:|
+| No | 844 | 110 |
+| Yes | 289 | 127 |
+
+The dashboard displays higher attrition for employees with overtime: **30.6% with overtime vs. 11.9% without overtime**.
+
+This is an observed relationship in the dashboard and should not by itself be interpreted as proof that overtime causes attrition.
+
+---
+
+### 3. Attrition by Department
+
+| Department | Stayed | Left |
+|---|---:|---:|
+| Human Resources | 27 | 16 |
+| Research & Development | 440 | 363 |
+| Sales | 84 | 41 |
+
+The dashboard highlights Research & Development as having the highest displayed number of employees who left.
+
+---
+
+### 4. Attrition by Age Group
+
+| Age Group | Stayed | Left |
+|---|---:|---:|
+| 18–25 | 29 | 44 |
+| 26–35 | 490 | 116 |
+| 36–45 | 425 | 43 |
+| 46–55 | 200 | 26 |
+| 56+ | 39 | 8 |
+
+The **26–35** group is the largest displayed age segment.
+
+---
+
+### 5. Attrition by Tenure Group
+
+| Tenure Group | Stayed | Left |
+|---|---:|---:|
+| 0–2 years | 240 | 102 |
+| 3–5 years | 374 | 69 |
+| 6–10 years | 393 | 55 |
+
+The dashboard identifies the **0–2 years** group as a key retention area and displays a **42.5% attrition rate** for this group.
+
+---
+
+### 6. Attrition by Gender
+
+The dashboard shows:
+
+- **Male:** 926 employees — 63%
+- **Female:** 544 employees — 37%
+
+The dashboard displays a higher attrition comparison for males than females. This is a descriptive result and not a causal conclusion.
+
+---
+
+## 💡 Key Business Insights
+
+- Overall employee attrition is **16.1%**.
+- The dashboard states that attrition is **2.3% lower than last year**.
+- **Sales Representative** has the highest displayed job-role attrition rate at **26.9%**.
+- **Research & Development** has the highest displayed number of employees who left at **363**.
+- The **0–2 years** tenure group is a key retention segment, with a displayed attrition rate of **42.5%**.
+- The workforce consists of **63% male** and **37% female** employees.
+- The dashboard displays higher attrition among employees with overtime: **30.6% vs. 11.9%**.
+- The **26–35** age group has the largest displayed employee population.
+- The **6–10 years** tenure group has the highest displayed number of employees who stayed.
+
+---
+
+## 🎯 Management Focus Areas
+
+1. Monitor employee retention in **Sales and Research & Development**.
+2. Focus on **early-tenure employees**, especially the 0–2 years group.
+3. Review workload and overtime patterns during employee-retention analysis.
+4. Investigate job roles with higher displayed attrition.
+5. Strengthen employee engagement and career-development opportunities.
+6. Use department, job role, gender, age and tenure segmentation for targeted HR reviews.
+7. Track attrition trends regularly rather than relying on a single reporting period.
+
+---
+
+## 📊 Dashboard Features
+
+The Excel dashboard provides:
+
+- KPI cards
+- Stayed vs. Left comparisons
+- Job-role attrition analysis
+- Overtime analysis
+- Department analysis
+- Age-group analysis
+- Tenure analysis
+- Gender analysis
+- Key Insights section
+- Focus Areas section
+- Structured HR reporting
+
+---
+
+## 📂 Recommended Repository Structure
+
+```text
+HR_Employee_Attrition_Dashboard/
+│
+├── README.md
+│
+├── Data/
+│   ├── HR_Employee_Data.xlsx
+│   └── HR_Employee_Cleaned.xlsx
+│
+├── Python/
+│   └── HR_Employee_Attrition_Analysis.ipynb
+│
+├── Excel/
+│   └── HR_Employee_Attrition_Dashboard.xlsx
+│
+├── Documentation/
+│   └── HR_Employee_Attrition_Dashboard_Documentation.docx
+│
+└── Screenshots/
+    └── HR_Attrition_Dashboard.png
+```
+
+---
+
+## 🚀 Skills Demonstrated
+
+### Python
+- Pandas
+- Data cleaning
+- Data validation
+- Data transformation
+- Exploratory data analysis
+- Segmentation
+
+### Excel
+- Data preparation
+- Calculations
+- Validation
+- Grouping
+- Charts
+- Dashboard creation
+- Reporting
+
+### HR Analytics
+- Employee attrition
+- Retention analysis
+- Workforce segmentation
+- Job-role analysis
+- Department analysis
+- Overtime analysis
+- Tenure analysis
+
+---
+
+## 📌 Portfolio Project Summary
+
+**Project:** HR Employee Attrition Dashboard  
+**Domain:** Human Resources / People Analytics  
+**Dataset Size:** 1,470 employees represented in dashboard  
+**Tools:** Python, Pandas, Excel  
+**Focus:** Employee Attrition & Retention  
+**Dashboard:** Excel-based HR Attrition Analytics Dashboard
+
+---
+
+## 📄 Documentation
+
+Detailed project documentation:
+
+`Documentation/HR_Employee_Attrition_Dashboard_Documentation.docx`
+
+---
+
+## 🔎 Conclusion
+
+This project demonstrates a complete HR analytics workflow from employee data preparation and exploratory analysis in Python/Pandas to calculations, visualization and dashboard reporting in Excel.
+
+The project converts employee-level HR data into measurable KPIs, workforce segments and management-focused insights that can support employee-retention monitoring and HR decision-making.
+
+---
+
+### HR Analytics
+**People • Performance • Retention • Building a Better Workplace, Together**
